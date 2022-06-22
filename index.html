@@ -392,45 +392,45 @@
       <section class="clients">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="list-style ul-client">
-            <li class="client-item">
-              <a href="" class="link client-link">
-                <svg class="icon-client">
+          <ul class="list-style clients__ul">
+            <li class="clients__li">
+              <a href="" class="link clients__link">
+                <svg class="clients__icon">
                   <use href="./images/svg/iconmoon.svg#icon-Client-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
-              <a href="" class="link client-link">
-                <svg class="icon-client">
+            <li class="clients__li">
+              <a href="" class="link clients__link">
+                <svg class="clients__icon">
                   <use href="./images/svg/iconmoon.svg#icon-Client-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
-              <a href="" class="link client-link">
-                <svg class="icon-client">
+            <li class="clients__li">
+              <a href="" class="link clients__link">
+                <svg class="clients__icon">
                   <use href="./images/svg/iconmoon.svg#icon-Client-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
-              <a href="" class="link client-link">
-                <svg class="icon-client">
+            <li class="clients__li">
+              <a href="" class="link clients__link">
+                <svg class="clients__icon">
                   <use href="./images/svg/iconmoon.svg#icon-Client-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
-              <a href="" class="link client-link">
-                <svg class="icon-client">
+            <li class="clients__li">
+              <a href="" class="link clients__link">
+                <svg class="clients__icon">
                   <use href="./images/svg/iconmoon.svg#icon-Client-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
-              <a href="" class="link client-link">
-                <svg class="icon-client">
+            <li class="clients__li">
+              <a href="" class="link clients__link">
+                <svg class="clients__icon">
                   <use href="./images/svg/iconmoon.svg#icon-Client-6"></use>
                 </svg>
               </a>
@@ -441,26 +441,28 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer-content">
+      <div class="container footer__content">
         <section>
-          <a href="./index.html" class="logo">
+          <a href="./index.html" class="logo footer__logo">
             <span lang="en" class="logo--acent">Web</span>
             <span lang="en" class="logo--secondary">Studio</span>
           </a>
           <address>
             <ul class="list-style">
-              <li>
-                <a href="" class="address footer-nav"
+              <li class="footer__li">
+                <a href="" class="footer__address footer__nav"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li>
-                <a href="mailto:info@example.com" class="contact footer-nav"
+              <li class="footer__li">
+                <a
+                  href="mailto:info@example.com"
+                  class="footer__contact footer__nav"
                   >info@example.com</a
                 >
               </li>
-              <li>
-                <a href="tel:+380991111111" class="contact footer-nav"
+              <li class="footer__li">
+                <a href="tel:+380991111111" class="footer__contact footer__nav"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -468,55 +470,56 @@
           </address>
         </section>
 
-        <section class="section-social-networks">
-          <h2 class="li-title">присоединяйтесь</h2>
-          <ul class="list-style">
-            <li class="li-social-networks">
-              <a href="" class="social-networks">
-                <svg class="footer-icon">
+        <section class="footer-social">
+          <h2 class="li-title footer__title">присоединяйтесь</h2>
+          <ul class="list-style footer-social__ul">
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
                   <use href="./images/svg/iconmoon.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="li-social-networks">
-              <a href="" class="social-networks">
-                <svg class="footer-icon">
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
                   <use href="./images/svg/iconmoon.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="li-social-networks">
-              <a href="" class="social-networks">
-                <svg class="footer-icon">
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
                   <use href="./images/svg/iconmoon.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="li-social-networks">
-              <a href="" class="social-networks">
-                <svg class="footer-icon">
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
                   <use href="./images/svg/iconmoon.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </section>
+
         <section class="subscription">
-          <h2 class="subscription-title li-title">Подпишитесь на рассылку</h2>
-          <div class="subscription-box">
+          <h2 class="li-title footer__title">Подпишитесь на рассылку</h2>
+          <div class="subscription__box">
             <form>
-              <label for="footer-form" class="footer-label">
+              <label for="footer-form">
                 <input
                   type="email"
                   id="footer-form"
-                  class="footer-input"
+                  class="subscription__input"
                   placeholder="E-mail"
                 />
               </label>
             </form>
-            <button class="button subscription-button" type="submit">
+            <button class="button subscription__button" type="submit">
               Подписаться
-              <svg class="subscription-button__icon">
+              <svg class="subscription__icon">
                 <use href="./images/svg/iconmoon.svg#icon-send"></use>
               </svg>
             </button>
