@@ -536,54 +536,59 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" data-modal-close class="close">
-          <svg class="icon-close">
+        <button type="button" data-modal-close class="modal-close">
+          <svg class="modal-close__icon">
             <use href="./images/svg/iconmoon.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="form">
-          <div class="form-field">
-            <label for="name" class="form-label">Имя</label>
-            <input type="text" class="form-input" id="name" placeholder=" " />
-            <svg class="icon-input">
+          <div class="form__field">
+            <label for="name" class="form__label">Имя</label>
+            <input type="text" class="form__input" id="name" placeholder=" " />
+            <svg class="form__icon">
               <use href="./images/svg/iconmoon.svg#icon-person"></use>
             </svg>
           </div>
-          <div class="form-field">
-            <label for="phone" class="form-label">Телефон</label>
-            <input type="tel" class="form-input" id="phone" placeholder=" " />
-            <svg class="icon-input">
+          <div class="form__field">
+            <label for="phone" class="form__label">Телефон</label>
+            <input type="tel" class="form__input" id="phone" placeholder=" " />
+            <svg class="form__icon">
               <use href="./images/svg/iconmoon.svg#icon-phone"></use>
             </svg>
           </div>
-          <div class="form-field">
-            <label for="email" class="form-label">Почта</label>
-            <input type="email" class="form-input" id="email" placeholder=" " />
-            <svg class="icon-input">
+          <div class="form__field">
+            <label for="email" class="form__label">Почта</label>
+            <input
+              type="email"
+              class="form__input"
+              id="email"
+              placeholder=" "
+            />
+            <svg class="form__icon">
               <use href="./images/svg/iconmoon.svg#icon-email"></use>
             </svg>
           </div>
-          <div class="form-field form-textarea">
-            <label for="textarea" class="form-label">Комментарий </label>
+          <div class="form__field textarea">
+            <label for="textarea" class="form__label">Комментарий </label>
             <textarea
               name="Комментарий"
               id="textarea"
-              class="textarea"
+              class="textarea__field"
               placeholder="Введите текст"
             ></textarea>
           </div>
 
           <div class="slave-box">
-            <label for="checkbox" class="checkbox-label">
+            <label for="checkbox" class="slave-box__label">
               <input
                 type="checkbox"
                 class="checkbox visually-hidden"
                 id="checkbox"
               />
-              <span class="checkbox-icon"></span>
+              <span class="checkbox__icon"></span>
               Соглашаюсь с рассылкой и принимаю
-              <a href="" class="checkbox-link">Условия договора</a>
+              <a href="" class="checkbox__link">Условия договора</a>
             </label>
             <button type="submit" class="button submit-button">
               Отправить
